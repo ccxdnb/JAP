@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1E0FCDB52C46E3F000E5E7D8 /* JAPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDB42C46E3F000E5E7D8 /* JAPApp.swift */; };
-		1E0FCDB72C46E3F000E5E7D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDB62C46E3F000E5E7D8 /* ContentView.swift */; };
 		1E0FCDB92C46E3F300E5E7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FCDB82C46E3F300E5E7D8 /* Assets.xcassets */; };
 		1E0FCDBC2C46E3F300E5E7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FCDBB2C46E3F300E5E7D8 /* Preview Assets.xcassets */; };
 		1E0FCDC62C46E3F300E5E7D8 /* JAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDC52C46E3F300E5E7D8 /* JAPTests.swift */; };
 		1E0FCDD02C46E3F300E5E7D8 /* JAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDCF2C46E3F300E5E7D8 /* JAPUITests.swift */; };
 		1E0FCDD22C46E3F300E5E7D8 /* JAPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDD12C46E3F300E5E7D8 /* JAPUITestsLaunchTests.swift */; };
+		1E0FCDE62C46E8A200E5E7D8 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDE52C46E8A200E5E7D8 /* HomeReducer.swift */; };
+		1E0FCDEA2C46EC3500E5E7D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDE92C46EC3500E5E7D8 /* HomeView.swift */; };
+		1E0FCDF02C46F5BC00E5E7D8 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDEE2C46EC9B00E5E7D8 /* SearchReducer.swift */; };
+		1E0FCDF12C46F5BF00E5E7D8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDEC2C46EC9000E5E7D8 /* SearchView.swift */; };
+		1E0FCDF42C46F64B00E5E7D8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1E0FCDF32C46F64B00E5E7D8 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		1E0FCDB12C46E3F000E5E7D8 /* JAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0FCDB42C46E3F000E5E7D8 /* JAPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPApp.swift; sourceTree = "<group>"; };
-		1E0FCDB62C46E3F000E5E7D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E0FCDB82C46E3F300E5E7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E0FCDBB2C46E3F300E5E7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E0FCDC12C46E3F300E5E7D8 /* JAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,10 @@
 		1E0FCDCB2C46E3F300E5E7D8 /* JAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0FCDCF2C46E3F300E5E7D8 /* JAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPUITests.swift; sourceTree = "<group>"; };
 		1E0FCDD12C46E3F300E5E7D8 /* JAPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E0FCDE52C46E8A200E5E7D8 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
+		1E0FCDE92C46EC3500E5E7D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E0FCDEC2C46EC9000E5E7D8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1E0FCDEE2C46EC9B00E5E7D8 /* SearchReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0FCDF42C46F64B00E5E7D8 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,7 @@
 				1E0FCDC42C46E3F300E5E7D8 /* JAPTests */,
 				1E0FCDCE2C46E3F300E5E7D8 /* JAPUITests */,
 				1E0FCDB22C46E3F000E5E7D8 /* Products */,
+				1E0FCDF22C46F64B00E5E7D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				1E0FCDB42C46E3F000E5E7D8 /* JAPApp.swift */,
-				1E0FCDB62C46E3F000E5E7D8 /* ContentView.swift */,
+				1E0FCDE12C46E63400E5E7D8 /* Clients */,
+				1E0FCDE02C46E62600E5E7D8 /* Models */,
+				1E0FCDDF2C46E61D00E5E7D8 /* Features */,
 				1E0FCDB82C46E3F300E5E7D8 /* Assets.xcassets */,
 				1E0FCDBA2C46E3F300E5E7D8 /* Preview Content */,
 			);
@@ -127,6 +138,54 @@
 			path = JAPUITests;
 			sourceTree = "<group>";
 		};
+		1E0FCDDF2C46E61D00E5E7D8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCDEB2C46EC8400E5E7D8 /* SearchFeature */,
+				1E0FCDE22C46E86B00E5E7D8 /* HomeFeature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1E0FCDE02C46E62600E5E7D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E0FCDE12C46E63400E5E7D8 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		1E0FCDE22C46E86B00E5E7D8 /* HomeFeature */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCDE52C46E8A200E5E7D8 /* HomeReducer.swift */,
+				1E0FCDE92C46EC3500E5E7D8 /* HomeView.swift */,
+			);
+			path = HomeFeature;
+			sourceTree = "<group>";
+		};
+		1E0FCDEB2C46EC8400E5E7D8 /* SearchFeature */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCDEC2C46EC9000E5E7D8 /* SearchView.swift */,
+				1E0FCDEE2C46EC9B00E5E7D8 /* SearchReducer.swift */,
+			);
+			path = SearchFeature;
+			sourceTree = "<group>";
+		};
+		1E0FCDF22C46F64B00E5E7D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +202,9 @@
 			dependencies = (
 			);
 			name = JAP;
+			packageProductDependencies = (
+				1E0FCDF32C46F64B00E5E7D8 /* ComposableArchitecture */,
+			);
 			productName = JAP;
 			productReference = 1E0FCDB12C46E3F000E5E7D8 /* JAP.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 1E0FCDA82C46E3F000E5E7D8;
+			packageReferences = (
+				1E0FCDDE2C46E53B00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 1E0FCDB22C46E3F000E5E7D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0FCDB72C46E3F000E5E7D8 /* ContentView.swift in Sources */,
+				1E0FCDF12C46F5BF00E5E7D8 /* SearchView.swift in Sources */,
+				1E0FCDEA2C46EC3500E5E7D8 /* HomeView.swift in Sources */,
 				1E0FCDB52C46E3F000E5E7D8 /* JAPApp.swift in Sources */,
+				1E0FCDF02C46F5BC00E5E7D8 /* SearchReducer.swift in Sources */,
+				1E0FCDE62C46E8A200E5E7D8 /* HomeReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +656,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E0FCDDE2C46E53B00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E0FCDF32C46F64B00E5E7D8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E0FCDDE2C46E53B00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E0FCDA92C46E3F000E5E7D8 /* Project object */;
 }

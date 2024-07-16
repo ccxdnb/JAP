@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct JAPApp: App {
+    static let store = Store(initialState: HomeReducer.State()) {
+        HomeReducer()
+            ._printChanges()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(
+                store: JAPApp.store
+            )
         }
     }
 }

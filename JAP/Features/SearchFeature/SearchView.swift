@@ -12,14 +12,18 @@ struct SearchView: View {
     @Bindable var store: StoreOf<SearchReducer>
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Searching for \(store.state.searchText)")
+        }
+        .searchable(text: $store.searchText.sending(\.searchUpdated))
     }
 }
 
-//#Preview {
-//    SearchView(
-//        store: Store(initialState: SearchReducer.State()) {
-//            SearchReducer()
-//        }
-//    )
-//}
+#Preview {
+    SearchView(
+        store: Store(initialState: SearchReducer.State()) {
+            SearchReducer()
+        }
+    )
+}
+

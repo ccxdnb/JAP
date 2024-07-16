@@ -12,20 +12,22 @@ struct SearchReducer {
 
     @ObservableState
     struct State: Equatable {
+        var searchText = ""
 
     }
 
     enum Action {
-
+        case searchUpdated(String)
     }
 
     var body: some ReducerOf<Self> {
         Reduce { state, action in
-//            switch action {
-//                
-//            }
-
-            return .none
+            switch action {
+                
+            case let .searchUpdated(text):
+                state.searchText = text
+                return .none
+            }
         }
     }
 }

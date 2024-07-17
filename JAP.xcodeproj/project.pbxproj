@@ -18,6 +18,8 @@
 		1E0FCDF02C46F5BC00E5E7D8 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDEE2C46EC9B00E5E7D8 /* SearchReducer.swift */; };
 		1E0FCDF12C46F5BF00E5E7D8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDEC2C46EC9000E5E7D8 /* SearchView.swift */; };
 		1E0FCDF42C46F64B00E5E7D8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1E0FCDF32C46F64B00E5E7D8 /* ComposableArchitecture */; };
+		1E0FCDF62C47100300E5E7D8 /* PokemonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDF52C47100300E5E7D8 /* PokemonCard.swift */; };
+		1E0FCDF82C472A0300E5E7D8 /* CardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCDF72C472A0200E5E7D8 /* CardClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1E0FCDE92C46EC3500E5E7D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1E0FCDEC2C46EC9000E5E7D8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		1E0FCDEE2C46EC9B00E5E7D8 /* SearchReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReducer.swift; sourceTree = "<group>"; };
+		1E0FCDF52C47100300E5E7D8 /* PokemonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCard.swift; sourceTree = "<group>"; };
+		1E0FCDF72C472A0200E5E7D8 /* CardClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 		1E0FCDE02C46E62600E5E7D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1E0FCDF52C47100300E5E7D8 /* PokemonCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		1E0FCDE12C46E63400E5E7D8 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
+				1E0FCDF72C472A0200E5E7D8 /* CardClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0FCDF12C46F5BF00E5E7D8 /* SearchView.swift in Sources */,
+				1E0FCDF62C47100300E5E7D8 /* PokemonCard.swift in Sources */,
 				1E0FCDEA2C46EC3500E5E7D8 /* HomeView.swift in Sources */,
+				1E0FCDF82C472A0300E5E7D8 /* CardClient.swift in Sources */,
 				1E0FCDB52C46E3F000E5E7D8 /* JAPApp.swift in Sources */,
 				1E0FCDF02C46F5BC00E5E7D8 /* SearchReducer.swift in Sources */,
 				1E0FCDE62C46E8A200E5E7D8 /* HomeReducer.swift in Sources */,
